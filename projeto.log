@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.11)  28 APR 2018 08:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.11)  28 APR 2018 18:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1455,58 +1455,58 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 20.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.62 \hspace{}
-              
+ [4] [5])
+(./indice/visaogeraldoproduto.tex
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.59     \hline
+               {}
+? ]
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+1 or ... or 9 to ignore the next 1 to 9 tokens of input,
+H for help, X to quit.
 ? 
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.62 \hspace{}
-              
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.68     \hline
+               {}
 ? 
-! Too many }'s.
-<recently read> }
-                 
-l.63   \textbf{RF}}
-                    – requisito funcional
+! Misplaced alignment tab character &.
+l.73     \mySiglaProject &
+                           Mobile Android - Integração com a mesmo layout ...
+
 ? 
-[4] [5]) (./indice/visaogeraldoproduto.tex
-
-! LaTeX Error: Illegal character in array arg.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21   \begin{tabular}{|1|c|p{3cm}|}
-                                    \hline
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.76     \hline
+               {}
 ? 
 ) [6] (./projeto.aux) ) 
 Here is how much of TeX's memory you used:
- 29142 strings out of 492995
- 697258 string characters out of 6132703
+ 29135 strings out of 492995
+ 697161 string characters out of 6132703
  934113 words of memory out of 5000000
- 32018 multiletter control sequences out of 15000+600000
- 54217 words of font info for 83 fonts, out of 8000000 for 9000
+ 32016 multiletter control sequences out of 15000+600000
+ 49694 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,15n,96p,835b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/l
-m-ec.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}<
+m-mathsy.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<
 /usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local
 /texlive/2017/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2
 017/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2017/texmf-d
 ist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
 ype1/public/lm/lmr9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
-lm/lmri10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy10.
-pfb>
-Output written on projeto.pdf (7 pages, 213224 bytes).
+lm/lmsy10.pfb>
+Output written on projeto.pdf (7 pages, 204310 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
+ 60 PDF objects out of 1000 (max. 8388607)
+ 42 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 15890 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 13842 words of extra memory for PDF output out of 14400 (max. 10000000)
 
