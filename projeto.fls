@@ -394,6 +394,8 @@ INPUT indice/introducao.tex
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/lm/omslmr.fd
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/lm/omslmr.fd
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
+INPUT indice/contexto-uso.tex
+INPUT indice/contexto-uso.tex
 INPUT indice/visaogeraldoproduto.tex
 INPUT indice/visaogeraldoproduto.tex
 INPUT projeto.aux
