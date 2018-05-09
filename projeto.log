@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.11)  2 MAY 2018 00:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.11)  9 MAY 2018 08:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1449,7 +1449,7 @@ LaTeX Info: Redefining \nameref on input line 4.
 \openout7 = `projeto.out'.
 
  (./indice/capa.tex
-<imagens/logo-unifor.png, id=59, 1039.885pt x 1107.13625pt>
+<imagens/logo-unifor.png, id=99, 1039.885pt x 1107.13625pt>
 File: imagens/logo-unifor.png Graphic file (type png)
 
 <use imagens/logo-unifor.png>
@@ -1546,22 +1546,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 19.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 19.
-[2] (./projeto.lot)
-\tf@lot=\write9
-\openout9 = `projeto.lot'.
-
-
-! Undefined control sequence.
-\f@ncyorf ->\mySiglaProject 
-                            \strut 
-l.22   \newpage
-               
-? 
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 22.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 22.
-[3] (./indice/introducao.tex
+[2] (./indice/introducao.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 20.
@@ -1578,154 +1563,212 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 61.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 74.
+(babel)             in language  on input line 79.
 
 ! Undefined control sequence.
-\f@ncyelf ->\mySiglaProject 
+\f@ncyorf ->\mySiglaProject 
                             \strut 
-l.93 
+l.92 
      
 ? 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 93.
+(babel)             in language  on input line 92.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 93.
-[4]
+(babel)             in language  on input line 92.
+[3]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 95.
-
+(babel)             in language  on input line 100.
+)
 ! Undefined control sequence.
-\f@ncyorf ->\mySiglaProject 
+\f@ncyelf ->\mySiglaProject 
                             \strut 
-l.103 \newpage
-              
+l.22   \newpage
+               
 ? 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 103.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 103.
-[5]) (./indice/contexto-uso.tex
+(babel)             in language  on input line 22.
+[4] (./indice/visaogeraldoproduto.tex
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 38.
+(babel)             in language  on input line 19.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 34.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 54.
+(babel)             in language  on input line 68.
 
-! Undefined control sequence.
-\f@ncyelf ->\mySiglaProject 
-                            \strut 
-l.72 \newpage
-             
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.78     \hline
+               {}
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.87     \hline
+               {}
+? 
+! Misplaced alignment tab character &.
+l.92     \mysiglaproject &
+                           Mobile Android - Integração com a mesmo layout ...
+
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.95     \hline
+               {}
 ? 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 72.
+(babel)             in language  on input line 100.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 72.
-[6]
+(babel)             in language  on input line 117.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 73.
- <imagens/fluxo1.jpg, id=115, 846.16125pt x 598.235pt>
-File: imagens/fluxo1.jpg Graphic file (type jpg)
-
-<use imagens/fluxo1.jpg>
-Package pdftex.def Info: imagens/fluxo1.jpg used on input line 95.
-(pdftex.def)             Requested size: 423.07959pt x 299.11676pt.
-
+(babel)             in language  on input line 124.
 ! Undefined control sequence.
 \f@ncyorf ->\mySiglaProject 
                             \strut 
-l.98 \newpage
-             
-? 
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 98.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 98.
-[7 <./imagens/fluxo1.jpg>]
-<imagens/fluxo3.jpg, id=124, 846.16125pt x 598.235pt>
-File: imagens/fluxo3.jpg Graphic file (type jpg)
- <use imagens/fluxo3.jpg>
-Package pdftex.def Info: imagens/fluxo3.jpg used on input line 117.
-(pdftex.def)             Requested size: 423.07959pt x 299.11676pt.
-
-! Undefined control sequence.
-\f@ncyelf ->\mySiglaProject 
-                            \strut 
-l.121 \newpage
-              
-? 
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 121.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 121.
-[8 <./imagens/fluxo3.jpg>]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 123.
-
-<imagens/fluxo2.jpg, id=132, 846.16125pt x 599.23875pt>
-File: imagens/fluxo2.jpg Graphic file (type jpg)
-
-<use imagens/fluxo2.jpg>
-Package pdftex.def Info: imagens/fluxo2.jpg used on input line 148.
-(pdftex.def)             Requested size: 423.07959pt x 299.61864pt.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 152.
- <imagens/persona.jpg, id=133, 801.99625pt x 489.83pt>
-File: imagens/persona.jpg Graphic file (type jpg)
-
-<use imagens/persona.jpg>
-Package pdftex.def Info: imagens/persona.jpg used on input line 157.
-(pdftex.def)             Requested size: 400.99713pt x 244.9144pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-! Undefined control sequence.
-\f@ncyorf ->\mySiglaProject 
-                            \strut 
-l.158 
+l.134 
       
 ? 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 158.
+(babel)             in language  on input line 134.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 158.
-[9 <./imagens/fluxo2.jpg>]
-<imagens/persona2.jpg, id=142, 801.99625pt x 489.83pt>
-File: imagens/persona2.jpg Graphic file (type jpg)
-
-<use imagens/persona2.jpg>
-Package pdftex.def Info: imagens/persona2.jpg used on input line 167.
-(pdftex.def)             Requested size: 400.99713pt x 244.9144pt.
-
+(babel)             in language  on input line 134.
+[5])
 ! Undefined control sequence.
 \f@ncyelf ->\mySiglaProject 
                             \strut 
-l.177 \newpage
-              
+l.24   \newpage
+               
 ? 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 177.
+(babel)             in language  on input line 24.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 177.
-[10 <./imagens/persona.jpg> <./imagens/persona2.jpg>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 27.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 27.
+(babel)             in language  on input line 24.
+[6] (./indice/requisitosfuncionais.tex
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 11.
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 18.
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 27.
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 36.
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 46.
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+
+ []
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 56.
+)
+! Undefined control sequence.
+\f@ncyorf ->\mySiglaProject 
+                            \strut 
+l.26   \newpage
+               
+? 
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 26.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 26.
+[7]
+! Undefined control sequence.
+\f@ncyelf ->\mySiglaProject 
+                            \strut 
+l.26   \newpage
+               
+? 
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 26.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 26.
+[8]
+
+! LaTeX Error: File `indice/requisitosnaofuncionais.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+(./indice/referencias.tex
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+)
+! Undefined control sequence.
+\f@ncyorf ->\mySiglaProject 
+                            \strut 
+l.30   \newpage
+               
+? 
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 30.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 30.
+[9] (./indice/aprovacao.tex
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+)
+! Undefined control sequence.
+\f@ncyelf ->\mySiglaProject 
+                            \strut 
+l.32   \newpage
+               
+? 
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 32.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 32.
+[10]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 34.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 34.
  (./projeto.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 27.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 27.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 34.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 34.
 Package rerunfilecheck Info: File `projeto.out' has not changed.
-(rerunfilecheck)             Checksum: 3CFB33CA5323C828C02852CB3A249C09;1032.
+(rerunfilecheck)             Checksum: 063B517DD300868E308CABFFBB09303A;1800.
  ) 
 Here is how much of TeX's memory you used:
- 32374 strings out of 492995
- 746774 string characters out of 6132703
- 952934 words of memory out of 5000000
- 35200 multiletter control sequences out of 15000+600000
- 54217 words of font info for 83 fonts, out of 8000000 for 9000
+ 32381 strings out of 492995
+ 746803 string characters out of 6132703
+ 953936 words of memory out of 5000000
+ 35189 multiletter control sequences out of 15000+600000
+ 54632 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,11n,96p,835b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
@@ -1736,10 +1779,10 @@ type1/public/lm/lmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
 c/lm/lmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr9.p
 fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/l
 ocal/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on projeto.pdf (11 pages, 3586220 bytes).
+Output written on projeto.pdf (11 pages, 229159 bytes).
 PDF statistics:
- 184 PDF objects out of 1000 (max. 8388607)
- 155 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
- 16019 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 229 PDF objects out of 1000 (max. 8388607)
+ 204 compressed objects within 3 object streams
+ 42 named destinations out of 1000 (max. 500000)
+ 16074 words of extra memory for PDF output out of 17280 (max. 10000000)
 

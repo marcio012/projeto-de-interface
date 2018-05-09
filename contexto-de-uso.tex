@@ -1,0 +1,22 @@
+\documentclass[a4paper,twoside,fontsize=14pt,parskip=full]{article}
+  \input{config}
+  \begin{document}
+    
+    \input{indice/capa}
+    \input{indice/contra-capa}
+  
+    \pagestyle{fancy}
+      \fancyhf{}
+      \fancyhead[LE,RO]{\myDock}
+      \fancyhead[RE,LO]{\myName}
+     
+      \fancyfoot[LE,RO]{\mySiglaProject}
+      \fancyfoot[RE,LO]{\thepage}
+      \fancyfoot[CE,CO]{\leftmark}
+  
+    % ==== pages documents ====
+    \input{indice/contexto-uso}
+    \newpage
+    
+  \end{document}
+  

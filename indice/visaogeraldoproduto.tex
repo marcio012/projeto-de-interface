@@ -1,17 +1,18 @@
-\section{Descrição geral do Produto/Serviço}
+\section{Visão geral do Produto/Serviço}
 \hspace{2.0cm}
 
-Com a constante insatisfação do corpo de funcionários que de alguma forma fazem 
-uso dos projetores, foi observado a necessidade de criar uma solução de modo 
-a "automatizar" o processo de aquisição e devolução dos projetores, como também 
-a adição de função sugeridas, como a possibilidade e locar previamente o projetor
-de forma democrática respeitando as questão prevista para que a reserva aconteça. 
+%Com a constante insatisfação do corpo de funcionários que de alguma forma fazem 
+%uso dos projetores, foi observado a necessidade de criar uma solução de modo 
+%a "automatizar" o processo de aquisição e devolução dos projetores, como também 
+%a adição de função sugeridas, como a possibilidade e locar previamente o projetor
+%de forma democrática respeitando as questão prevista para que a reserva aconteça. 
 
-O Sistema tem como sua função principal o registro da aquisição e devolução dos 
-projetores, como também, cadastrar aqueles que fazem seu uso, criando assim um 
+O Sistema tem como sua função principal registra a coleta (capitação dos Data
+Show) e devolução dos projetores, como também, cadastrar aqueles que fazem seu uso, criando assim um 
 processo automatizado e controlado do uso dos mesmo, antecipando possíveis 
 problemas de quebra e perca de acessórios com os cabos de força e os de HDMI, 
-e possibilitando o reparo mais rápido pois haveria informação quase que em tempo real. 
+e possibilitando o reparo mais rápido pois haveria informação quase que em tempo real.
+Dando aos professores um ganho de tempo. 
 
 \hspace{2.0cm}
 
@@ -22,10 +23,9 @@ e possibilitando o reparo mais rápido pois haveria informação quase que em te
   \begin{tabular}{| l | l |}\hline
 
     Definição, sigla ou abreviação & Descrição \\ \hline
-    Definição, sigla ou abreviação & Descrição \\ \hline
-    Definição, sigla ou abreviação & Descrição \\ \hline
-    Definição, sigla ou abreviação & Descrição \\ \hline
-    Definição, sigla ou abreviação & Descrição \\ \hline
+    \mysiglaproject & Abreviação do nome do projeto \\ \hline
+    Unifor Online   & Sistema da Unifor  \\ \hline
+    IOS             & Sistema Operacional da Appler \\ \hline
 
   \end{tabular}
 
@@ -33,17 +33,36 @@ e possibilitando o reparo mais rápido pois haveria informação quase que em te
   
 \subsection{Sistema relacionados e escopo negativo}
 
-\mySiglaProject, sua integração seria em cima do sistema que a Unifor já tem o
+\begin{flushleft}
+ 
+\mysiglaproject, sua integração seria em cima do sistema que a Unifor já tem o
 "Unifor Online", um extensão da plataforma aproveitando o banco de dados
 existente e usando sua persistencia de dados, onde já tem a base de funcionários
 cadastrados.
 
-Também será adicionada nas plataformas mobile existentes, IOS e ANDROID,
-deixando o portátil e de acesso fácil. 
 
-Um Estação no ponto de controle, "na secretaria", onde fica a parte responsável
-pela administração dos projetores, podendo ser um \textbf{PC} ou \textbf{Totem
-de Atendimento}, dando a opção de gerar consulta no local. 
+  \textbf{Escopo Atual}
+  
+  \begin{enumerate}
+
+    \item Um Estação no ponto de controle, "na secretaria", onde fica a parte responsável
+pela administração dos projetores, podendo ser um \textbf{PC}, dando a opção de
+gerar consulta no local. 
+  
+  \end{enumerate}
+
+
+  \textbf{Escopo Futuro}
+  
+  \begin{enumerate}
+  
+    \item A instalação de um totem de auto-atendimento, daria agilidade no atendimento. 
+
+    \item Adicionar nas plataformas mobile existentes, IOS e ANDROID, deixando o portátil e de acesso fácil. 
+  
+  \end{enumerate}
+
+\end{flushleft}
 
 
 \subsubsection{Sistema relacionados}
@@ -51,7 +70,7 @@ de Atendimento}, dando a opção de gerar consulta no local.
   \begin{center} 
 
 
-    \mySiglaProject - Unifor On line
+    \mysiglaproject - Unifor On line
 
     Integrando com o mesmo layout, banco de dados da plataforma existente.
 
@@ -60,7 +79,7 @@ de Atendimento}, dando a opção de gerar consulta no local.
     \hspace{2.0cm}
 
 
-    \mySiglaProject - Mobile IOS
+    \mysiglaproject - Mobile IOS
     Integração com a mesmo layout e forma existente. 
 
 
@@ -70,7 +89,7 @@ de Atendimento}, dando a opção de gerar consulta no local.
 
 
 
-    \mySiglaProject & Mobile Android - Integração com a mesmo layout e formas existente.
+    \mysiglaproject & Mobile Android - Integração com a mesmo layout e formas existente.
 
     \hspace{2.0cm}
     \hline{}
@@ -80,16 +99,63 @@ de Atendimento}, dando a opção de gerar consulta no local.
 
 \subsubsection{Escopo Negativo}
 
+\begin{flushleft}
+  
+  \begin{itemize}
+  
+    \item O sistema não terá controle de chaves de sala. 
+
+    \item O sistema não disponibilizara inicialmente de reservas de Data Show.
+
+    \item O sistema não gerar cobrança em caso de quebras do Data Show.
+
+  \end{itemize}
+
+\end{flushleft}
+
+
+\subsection{Premissas e Restrições}
+
 A satisfação esperada do sistema depende claro dos usuários e sua aceitação pois
 todo controle ficara na mão dos usuários sendo que praticas antigas notadas e
 costumes de entrega tem que ser revisto, prevendo isso é aconselhado um breve
 treinamento das partes envolvidas. 
 
-
-\subsection{Premissas e Restrições}
-
-
 \subsection{Descrição dos Usuários}
 
+Universidade de Fortaleza - Unifor criada pelo então chanceler Edson Queiroz, 
+instalada em um campus de 720 mil metros quadrados, onde se encontra uma 
+megaestrutura com cerca de 300 salas de aula e mais de 230 laboratórios 
+especializados. O campus também é composto por auditórios, salas de vídeo, 
+biblioteca, centro de convivência, núcleo de atenção médica, clínica odontológica, 
+parque desportivo, teatro, espaço cultural, escritório para a prática jurídica, 
+empresas juniores, TV universitária, escola de ensino infantil e fundamental e 
+diversos outros núcleos de prática acadêmica e pesquisa.
+
+O corpo docente altamente qualificado, composto de 1.300 professores, com mais de 80\% de mestres e doutores, é responsável pela supervisão de centenas de projetos de pesquisa no domínio científico, tecnológico, artístico e cultural.
+
+\begin{flushleft}
 
 
+  \begin{itemize}
+    
+    \item \textbf{Usuários do Sistema}
+
+      Para a operacionalização dos sistema não e exigido muito em conhecimento, por
+      se tratar de uma sistema de fácil aprendizado. 
+
+    \item \textbf{Usuário Secretária} Responsável pelo cadastro dos projetores,
+      atuoriza a entrega ao usuário professor ou convidado a pegar o data show,
+      como também verifica, (chegagem do esquipamento na hora da entrega),
+      conclui a entrega do data show, confirma se o usuário convidado tem
+      autorização para pegar o data show.
+
+    \item \textbf{Usuário Professor} Faz pedido de um data show, pode ver a
+      disponibilidade dos data show, faz a entrega do data show. 
+
+    \item \textbf{Usuário Convidado} Pede autorização para pegar o data show, se o
+      mesmo for autorizado, pode fazer a devolução do data show.
+
+  \end{itemize}
+
+\end{flushleft}
