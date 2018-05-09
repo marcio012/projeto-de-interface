@@ -20,5 +20,17 @@
 \contentsline {subsection}{\numberline {3.5}\textbf {RF005 Cadastro de todo usu\IeC {\'a}rios}}{7}{subsection.3.5}
 \contentsline {subsection}{\numberline {3.6}\textbf {RF006 Relat\IeC {\'o}rios de movimenta\IeC {\c c}\IeC {\~a}o}}{7}{subsection.3.6}
 \contentsline {subsection}{\numberline {3.7}\textbf {Implementa\IeC {\c c}\IeC {\~a}o futuras}}{7}{subsection.3.7}
-\contentsline {section}{\numberline {4}Refer\IeC {\^e}ncias}{9}{section.4}
-\contentsline {section}{\numberline {5}Aprova\IeC {\c c}\IeC {\~a}o}{10}{section.5}
+\contentsline {section}{\numberline {4}Requisitos N\IeC {\~a}o Funcionais}{8}{section.4}
+\contentsline {subsection}{\numberline {4.1}Usabilidade}{8}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}\textbf {RNF001 Uso de Resposividade}}{8}{subsubsection.4.1.1}
+\contentsline {subsection}{\numberline {4.2}\textbf {Confiabilidade}}{8}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}\textbf {RNF002 - Rodar em todos os Browser}}{8}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}\textbf {RF003 Arquitetura do sistema}}{8}{subsubsection.4.2.2}
+\contentsline {subsection}{\numberline {4.3}Seguran\IeC {\c c}a}{8}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}\textbf {RNF003 - Seguran\IeC {\c c}a dos Dados}}{8}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}\textbf {RF004 Compatibilidade com SO}}{8}{subsubsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3}\textbf {RF005 REST}}{8}{subsubsection.4.3.3}
+\contentsline {subsubsection}{\numberline {4.3.4}\textbf {RF006 Baixo consumo de mem\IeC {\'o}ria}}{9}{subsubsection.4.3.4}
+\contentsline {subsection}{\numberline {4.4}\textbf {Implementa\IeC {\c c}\IeC {\~a}o futuras}}{9}{subsection.4.4}
+\contentsline {section}{\numberline {5}Refer\IeC {\^e}ncias}{10}{section.5}
+\contentsline {section}{\numberline {6}Aprova\IeC {\c c}\IeC {\~a}o}{11}{section.6}

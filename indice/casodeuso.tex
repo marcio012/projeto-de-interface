@@ -1,11 +1,18 @@
 \section{Caso de uso e Cenário}  
 
-\subsection{Caso de uso}
+\subsection{Cenário}
 
 \subsubsection{Objetivo: pegar um Data Show na secretária}
 
-O "usuário Professor João", apos prepara a sua aula em slides, percebe a necessidade de pegar um projetor 
-de imagem, um "Data show", para dar uma incrementada em sua aula. 
+O "usuário Professor João", apos prepara a sua aula em slides, percebe a necessidade de pegar um projetor de imagem, um "Data show", para dar uma incrementada em sua aula.
+
+Ele dirige-se até a secretária, fala com a secretária, ela informa os projetores
+disponíveis, informando o número do data show e ela pergunta a ele se ele necessita
+de uma cabo de hdmi, ou de uma extensão.
+
+O professor João informa que precisa so do cabo hdmi, a secretária prontamente coloca
+o cabo hdmi no case do Data Show e entraga nas mãos do professor, que em seguida dirige-se
+para sua sala de aula. 
 
 \subsubsection{Requisitos}
 
@@ -43,7 +50,7 @@ Ter cadastro no sistema, ou ser cadastrado por uma pessoa responsável, ou ter u
 \end{enumerate}
 
 
-\subsection{Cenário: Aquisição do Projetor - tarefa realizada com sucesso}
+\subsection{Fluxo Principal: Aquisição do Projetor - tarefa realizada com sucesso}
 
 \begin{enumerate}
 
@@ -68,7 +75,7 @@ Ter cadastro no sistema, ou ser cadastrado por uma pessoa responsável, ou ter u
 
 \end{enumerate}
 
-\subsection{Cenário: Aquisição do Projetor tarefa não concluída}
+\subsection{Fluxo Alternativo: Aquisição do Projetor tarefa não concluída}
 
 \begin{enumerate}
 
@@ -78,11 +85,15 @@ Ter cadastro no sistema, ou ser cadastrado por uma pessoa responsável, ou ter u
   \item O "usuário Professor João", verifica os projetores que estão disponíveis
     e faz a solicitação de um data show.
 
+\\
+  \textbf{Lançamento de uma exceções}
+\\
+
     \begin{enumerate}
-  
-      \item o sistema informa que não há projetores disponíveis.
+
+      \item O sistema informa que não há projetores disponíveis.
         
-      \item o "usuário Professor João, confirma "
+      \item O "usuário Professor João, confirma "
 
     \end{enumerate}
     
@@ -91,7 +102,7 @@ Ter cadastro no sistema, ou ser cadastrado por uma pessoa responsável, ou ter u
 
 \end{enumerate}
 
-\subsection{Cenário: Aquisição do Projetor usuário não tem permissão}
+\subsection{Fluxo Alternativo: Aquisição do Projetor usuário não tem permissão}
 
 \begin{enumerate}
 
@@ -115,22 +126,17 @@ Ter cadastro no sistema, ou ser cadastrado por uma pessoa responsável, ou ter u
   \item O "usuário Aluno do Professor João", não tem permissão para leva o data
     show o sistema cancela a operação.
 
+\\
+    \textbf{Lançamento de uma exceções}
+\\
     \begin{enumerate}
 
-      \item o sistema envia uma mensagem avisando da falta de permissão para o
-        uso daquela tarefa
+      \item O sistema envia uma mensagem avisando da falta de permissão 
+      para o uso daquela tarefa. 
     
     \end{enumerate}
-
     
-    \begin{enumerate}
   
-      \item o sistema informa que não projetores disponíveis.
-        
-      \item o "usuário Professor João, confirma "
-
-    \end{enumerate}
-    
   \item o sistema apresenta uma mensagem de despedida. 
  
 
